@@ -1,0 +1,380 @@
+repo_name: instagated/gamba
+report_id: 89318591fdcd7e3316e7023e2f89e0b7
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-29T20:24:17+00:00'
+requested_by: bone-house
+provider: github
+branch: main
+detected_tools_count: 27
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/instagated/gamba
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/instagated/gamba/blob/main/packages/gamba-react/package.json
+  detection_source: packages/gamba-react/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-06 18:36:10.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/instagated/gamba
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
+- name: Zustand
+  description: Bear necessities for state management in React
+  website_url: https://github.com/react-spring/zustand
+  version: 4.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Monitoring for Analytics
+  image_url: https://img.stackshare.io/service/11559/zustand.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 01:10:17.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 6.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-18 17:27:53.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/instagated/gamba/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: gamba-labs
+  last_updated_on: 2023-03-15 02:02:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/instagated/gamba
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/.github/workflows/release.yml
+  detection_source: ".github/workflows/release.yml"
+  last_updated_by: gamba-labs
+  last_updated_on: 2023-04-07 15:22:49.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: gamba-labs
+  last_updated_on: 2023-05-01 15:04:05.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/packages/gamba-react/package.json
+  detection_source: packages/gamba-react/package.json
+  last_updated_by: gamba-labs
+  last_updated_on: 2023-04-14 18:10:42.000000000 Z
+- name: Buffer
+  description: The easiest way to schedule tweets, Facebook posts and more
+  website_url: https://bufferapp.com/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Social Media Tools
+  image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 21:19:33.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/vercel.json
+  detection_source: apps/demo/vercel.json
+  last_updated_by: gamba-labs
+  last_updated_on: 2023-05-01 15:04:05.000000000 Z
+- name: three.js
+  description: A JavaScript 3D library
+  website_url: https://threejs.org/
+  version: 0.151.3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Game Development
+  image_url: https://img.stackshare.io/service/5883/preview.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-05 15:01:35.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.2.3
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 6.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-06 18:36:10.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 6.6.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-06 18:36:10.000000000 Z
+- name: assert
+  description: The assert module from Node.js, for the browser
+  package_url: https://www.npmjs.com/assert
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16188/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/packages/gamba-react/package.json
+  detection_source: packages/gamba-react/package.json
+  last_updated_by: gamba-labs
+  last_updated_on: 2023-04-28 16:38:21.000000000 Z
+- name: bs58
+  description: Base 58 encoding / decoding
+  package_url: https://www.npmjs.com/bs58
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16997/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/explorer/package.json
+  detection_source: apps/explorer/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-21 14:50:56.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.33.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-06 18:36:10.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
+- name: three
+  description: JavaScript 3D library
+  package_url: https://www.npmjs.com/three
+  version: 0.151.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
+  detection_source_url: https://github.com/instagated/gamba/blob/main/apps/demo/package.json
+  detection_source: apps/demo/package.json
+  last_updated_by: bone-house
+  last_updated_on: 2023-09-09 19:50:35.000000000 Z
